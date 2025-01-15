@@ -31,13 +31,19 @@ git clone https://github.com/danlps1/Node.JS-Web-Blog.git
 ### 2. Instalar as dependências
 Navegue até a pasta do projeto e instale as dependências necessárias:
 ```bash
-cd nodejs-web-blog
+cd Node.JS-Web-Blog
 npm install
+```
+Crie uma pasta chamada "uploads" na pasta "public" do projeto.
+```bash
+cd /Node.JS-Web-Blog/public
+mkdir uploads
 ```
 ### 3. Rodar a aplicação
 Inicie o servidor:
 
 ````bash
-npm start
+cd Node.JS-Web-Blog
+node index.js
 ````
 A aplicação estará rodando em http://localhost:3000.
