@@ -26,7 +26,7 @@ Este projeto é uma aplicação de Blog desenvolvida utilizando Node.js, Express
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/danlps1/nodejs-web-blog.git
+git clone https://github.com/danlps1/Node.JS-Web-Blog.git
 ```
 ### 2. Instalar as dependências
 Navegue até a pasta do projeto e instale as dependências necessárias:
