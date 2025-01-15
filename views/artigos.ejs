@@ -1,0 +1,25 @@
+<%- include('partials/header.ejs') %>
+<section class="artigos py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <% if (artigos.length > 0) { %>
+        <% artigos.forEach((artigo, index) => { %>
+          <div class="col-md-4 mb-4 d-flex align-items-stretch">
+            <div class="card shadow-sm">
+              <img src="<%= artigo.imagem %>" class="card-img-top" alt="Imagem do artigo">
+              <div class="card-body">
+                <h5 class="card-title"><%= artigo.titulo %></h5>
+                <p class="card-text"><%= artigo.resumo %></p>
+                <a href="/artigos/<%= index %>" class="btn btn-success w-100"style="background-color: rgb(55, 158, 55)";>Ver</a>
+              </div>
+            </div>
+          </div>
+        <% }) %>
+      <% } else { %>
+        <div class="col-12 text-center">
+          <p>Nenhum artigo foi publicado ainda.</p>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,122 @@
+/* header section */
+
+#blogLogo{
+    padding: 10px;
+}
+
+.navBtn {
+    padding: 8px;
+    height: 90%;
+    margin-right: 5px;
+    background-color: rgb(55, 158, 55);
+    border: 2px solid white;    
+    border-radius: 7px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header{
+    font-family: "Oswald", serif;
+    text-transform:uppercase;
+}
+
+/* main section */
+main {
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+}
+
+#intro {
+    height: 80vh;
+}
+
+.btnMain{
+    padding: 10px;
+    height: 80%;
+    margin-right: 5px;
+    background-color: rgb(55, 158, 55);
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* artigos page */
+.artigos {
+    background-color: white;
+    font-family: "Roboto", serif;
+}   
+
+/* sobre page */
+#sobre-sec {
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+}
+
+#sobre-sec span {
+    font-weight: bold;
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:start;
+    text-align: justify;
+    padding: 20px;
+    flex-basis: 100%;
+    width: 95vw;
+}
+
+.sobre-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* publicar page */
+form {
+    margin-top: 50px;
+  }
+.publicarPage {
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+}
+  
+  .form-control {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid rgb(87, 173, 87);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .form-control:focus {
+    border: 2px solid rgb(55, 158, 55);
+  }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  
+  /* artigos completo */
+  .artigo-completo {
+    font-family: "Roboto", serif;
+    font-size: 1rem;
+    color: black;
+  }

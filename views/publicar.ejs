@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+<section class="publicarPage py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h1 class="mb-4 text-center">Publicar Artigo</h1>
+        <form action="/artigos" method="POST" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" class="form-control" id="titulo" name="titulo" required>
+          </div>
+          <div class="mb-3">
+            <label for="resumo" class="form-label">Resumo</label>
+            <textarea class="form-control" id="resumo" name="resumo" rows="2" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="conteudo" class="form-label">Conteúdo</label>
+            <textarea class="form-control" id="conteudo" name="conteudo" rows="6" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="imagem" class="form-label">Imagem</label>
+            <input class="form-control" type="file" id="imagem" name="imagem" accept="image/*" required>
+          </div>
+          <button type="submit" class="btn btn-success w-100" style="background-color: rgb(55, 158, 55);">Publicar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

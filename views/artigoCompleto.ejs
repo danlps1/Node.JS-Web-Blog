@@ -1,0 +1,14 @@
+<%- include('partials/header.ejs') %>
+<section class="artigo-completo py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h1 class="mb-4"><%= artigo.titulo %></h1>
+        <img src="<%= artigo.imagem %>" class="img-fluid mb-4" alt="Imagem do artigo">
+        <p class="lead"><%= artigo.conteudo %></p>
+        <a href="/artigos" class="btn btn-success" style="background-color: rgb(55, 158, 55);">Voltar</a>
+        <a href="/artigos/<%= id %>/editar" class="btn btn-success" style="background-color: rgb(55, 158, 55)">Editar</a>
+      </div>
+    </div>
+  </div>
+</section>
