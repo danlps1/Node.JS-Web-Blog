@@ -1,4 +1,5 @@
-# Node.js Web Blog Project
+# <img id="blogLogo" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="30px" height="25px"/> Node.js Web Blog Project 
+
 
 Este projeto é uma aplicação de Blog desenvolvida utilizando Node.js, Express.js e EJS. O objetivo é permitir que os usuários criem, visualizem, editem e excluam postagens de blog. Embora não utilize um banco de dados para persistir os posts, a aplicação oferece uma boa experiência de usuário com um design responsivo para dispositivos desktop e móveis.
 
