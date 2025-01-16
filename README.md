@@ -34,11 +34,6 @@ Navegue até a pasta do projeto e instale as dependências necessárias:
 cd Node.JS-Web-Blog
 npm install
 ```
-Crie uma pasta chamada "uploads" na pasta "public" do projeto.
-```bash
-cd /Node.JS-Web-Blog/public
-mkdir uploads
-```
 ### 3. Rodar a aplicação
 Inicie o servidor:
 
