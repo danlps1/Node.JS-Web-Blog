@@ -39,7 +39,6 @@ npm install
 Inicie o servidor:
 
 ````bash
-cd Node.JS-Web-Blog
 node index.js
 ````
 A aplicação estará rodando em http://localhost:3000.
